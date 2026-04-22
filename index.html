@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Guess the number!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Сгенерируй число компьютером от 1 до 100 и угадай!</h1>
+    <input type="number" class="number" min="1" max="100">
+    <input type="submit" class="submit">
+    <input type="submit" class="random" value="Новое число">
+    <p class="result">Результат:</p>
+    <p class="help">Подсказка:</p>
+    <p class="attemps">Попытка:</p>
+    <p class="status">Число: Не сгенирировано</p>
+    <p class="error"></p>
+    <script src="script.js"></script>
 </body>
 </html>
